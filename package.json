@@ -1,0 +1,28 @@
+{
+  "name": "typescript-ui-router-experiment",
+  "version": "1.0.0",
+  "description": "just fiddling with ui-router and typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma test --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notmodified/typescript-ui-router-experiment.git"
+  },
+  "author": "https://github.com/notmodified",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notmodified/typescript-ui-router-experiment/issues"
+  },
+  "homepage": "https://github.com/notmodified/typescript-ui-router-experiment#readme",
+  "devDependencies": {
+    "angular": "^1.4.7",
+    "angular-ui-router": "^0.2.15",
+    "browser-sync": "^2.10.0",
+    "karma": "^0.13.15",
+    "tsd": "^0.6.5",
+    "typescript": "^1.6.2",
+    "watchify": "^3.6.0"
+  }
+}
