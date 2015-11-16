@@ -1,1 +1,13 @@
-<h1 ng-repeat="i in vm.items">hi there {{i}}</h1>
+<div>
+  <form ng-submit="vm.addThing()" name="things">
+    <input type="text" name="thing" ng-model="vm.newv" required>
+    <input type="submit" value="submit">
+    <div
+      ng-show="things.thing.$touched && things.thing.$invalid"
+      ng-messages="things.thing.$error"
+      role="alert">
+      <div ng-message="required">required</div>
+    </div>
+  </form>
+  <h1 ng-repeat="i in vm.items">hi there {{i}}</h1>
+</div>
